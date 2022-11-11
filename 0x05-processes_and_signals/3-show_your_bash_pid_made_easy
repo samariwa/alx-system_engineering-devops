@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Bash script that outputs the process names alongside PID that contain the
+# word bash
+# shellcheck disable=SC2009
+./1-list_your_processes | pgrep -l bash
