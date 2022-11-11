@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # This script is displaying "Best School" 10 times
 # It displays "Hi" in 9th iteration 
-a=1
+a=0
 while [ $a -lt 11 ];
 do
     if [ $a -eq 9 ]
