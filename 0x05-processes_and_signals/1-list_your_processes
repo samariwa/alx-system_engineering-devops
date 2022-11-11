@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Script that lists currently running processes.
+top
