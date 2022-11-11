@@ -1,0 +1,25 @@
+#!/usr/bin/env bash
+# This script is displaying "Best School" 10 times
+# It displays "bad luck from China" in 4th number
+# It displays "bad luck from Japan" in 9th number
+# It displays "bad luck from Italy" in 17th number
+a=1
+while [ $a -lt 21 ];
+do
+    if [ $a -eq 4 ]
+    then
+        echo "$a"
+        echo "bad luck from Chine"
+    elif [ $a -eq 9 ]
+    then
+        echo "$a"
+        echo "bad luck from Japan"
+    elif [ $a -eq 17 ]
+    then
+        echo "$a"
+        echo "bad luck from Italy"
+    else
+        echo "$a"
+    fi
+    ((a++))
+done

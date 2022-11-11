@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+# This script is displaying "Best School" 10 times
+# It displays "bad luck" in 4th number and "good luck" in 8th number
+a=1
+while [ $a -lt 11 ];
+do
+    if [ $a -eq 4 ]
+    then
+        echo "bad luck"
+    elif [ $a -eq 8 ]
+    then
+        echo "good luck"
+    else
+        echo "Best School"
+    fi
+    ((a++))
+done
