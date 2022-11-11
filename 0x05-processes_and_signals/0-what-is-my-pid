@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Bash script that outputs the process ID of current process
+echo $BASHPID
