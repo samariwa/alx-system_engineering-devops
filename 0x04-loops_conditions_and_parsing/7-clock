@@ -12,3 +12,4 @@ do
     done
     ((a++))
 done
+echo "Hour: 12"
