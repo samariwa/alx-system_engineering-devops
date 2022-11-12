@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# This script outputs "To infinity and beyond" infinite times every 2 seconds
+# The script should output "I am invincible!!!" when receiving a SIGTERM signal
+trap "echo 'I am invincible!!!'"  SIGTERM
+a=1
+while [ $a -gt 0 ];
+do
+    echo "To infinity and beyond"
+    ((a++))
+    sleep 2
+done
